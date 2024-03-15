@@ -243,12 +243,15 @@
                                         </div>
                                     </div>
 
-
                                     <div class="row">
-                                        <div class="form-group col-12">
-                                            <label for="assigned manager" class="col-form-label">Assigned Manager</label>
-                                            <input id="assigned manager" type="text" class="form-control" place placeholder="select">
-                                        </div>
+                                    <div class="form-group col-12">
+                                        <label>Assigned Manager</label>
+                                        <select name="managerDrop" id="roleDropDown" class="custom-select" required="required">
+                                            <option value="none" selected disabled>Select</option>
+                                            <option value="ozzy">Ozzy</option>
+
+                                        </select>
+                                    </div>
                                     </div>
 
 
@@ -259,30 +262,30 @@
                                         <div class="form-group col-6">
                                             <label>Project Start Date</label>
                                             <br>
-
-                                    <!-- something date -->
+                                            <input type="date" class="form-control">
 
 
                                         </div>
                                         <div class="form-group col-6">
-                                            <label>Project Start Date</label>
+                                            <label>Project End Date</label>
                                             <br>
 
-                                            <!--something date -->
+                                            <input type="date" class="form-control">
 
                                         </div>
-
+                                    </div>
                                         <div class="row">
                                             <div class="form-group col-12">
-                                                <label for="projectdetail" class="col-form-label">Project Details</label>
-                                                <input id="projectdetail" type="text" class="form-control" place placeholder="Write your project Details">
+                                                <label>Project Detail</label>
+                                                <textarea placeholder= "write your ptoject details..." class="form-control"></textarea>
+
                                             </div>
                                         </div>
 
                                         <div class="form-group col-12">
                                             <button class="btn btn-success float-right" type="submit">Save</button>
                                         </div>
-                                    </div>
+
 
 
 
