@@ -217,7 +217,7 @@
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="page-header" id="top">
-                                    <h2 class="pageheader-title">User Create </h2>
+                                    <h2 class="pageheader-title">Project Create </h2>
                                 </div>
                             </div>
                         </div>
@@ -231,56 +231,54 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                                 <form>
                                     <div class="row">
-                                        <div class="form-group col-6">
-                                            <label for="firstname" class="col-form-label">First Name</label>
-                                            <input id="firstname" type="text" class="form-control" place placeholder="first name">
-                                        </div>
-                                        <div class="form-group col-6">
-                                            <label for="last name" class="col-form-label">Last Name</label>
-                                            <input id="last name" type="text" class="form-control" place placeholder="last name">
+                                        <div class="form-group col-12">
+                                            <label for="projectname" class="col-form-label">Project Name</label>
+                                            <input id="projectname" type="text" class="form-control" place placeholder="project name">
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="form-group col-6">
-                                            <label for="email address" class="col-form-label">Email Address</label>
-                                            <input id="email address" type="text" class="form-control" place placeholder="email address">
-                                        </div>
-                                        <div class="form-group col-6">
-                                            <label for="phone number" class="col-form-label">Phone Number</label>
-                                            <input id="phone number" type="text" class="form-control" place placeholder="phone number">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-group col-6">
-                                            <label for="password" class="col-form-label">Password</label>
-                                            <input id="password" type="password" class="form-control" place placeholder="password">
-                                        </div>
-                                        <div class="form-group col-6">
-                                            <label for="confirm password" class="col-form-label">Password</label>
-                                            <input id="confirm password" type="password" class="form-control" place placeholder="confirm your password">
+                                        <div class="form-group col-12">
+                                            <label for="projectcode" class="col-form-label">Project Code</label>
+                                            <input id="projectcode" type="text" class="form-control" place placeholder="project code">
                                         </div>
                                     </div>
 
+
+                                    <div class="row">
+                                        <div class="form-group col-12">
+                                            <label for="assigned manager" class="col-form-label">Assigned Manager</label>
+                                            <input id="assigned manager" type="text" class="form-control" place placeholder="select">
+                                        </div>
+                                    </div>
+
+
+
+
+
                                     <div class="row">
                                         <div class="form-group col-6">
-                                            <label>Gender</label>
+                                            <label>Project Start Date</label>
                                             <br>
-                                            <label class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" name="gender" checked="" class="custom-control-input" value="male"><span class="custom-control-label">Male</span>
-                                            </label>
-                                            <label class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" name="gender" checked="" class="custom-control-input" value="female"><span class="custom-control-label">Female</span>
-                                            </label>
+
+                                    <!-- something date -->
+
+
                                         </div>
                                         <div class="form-group col-6">
-                                            <label>Chose a Role</label>
-                                            <select name="roleId" id="roleDropDown" class="custom-select">
-                                                <option value="none" selected disabled>Select</option>
-                                                <option value="admin">Admin</option>
-                                                <option value="manager">Manager</option>
-                                                <option value="employee">Enployee</option>
-                                            </select>
+                                            <label>Project Start Date</label>
+                                            <br>
+
+                                            <!--something date -->
+
                                         </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-12">
+                                                <label for="projectdetail" class="col-form-label">Project Details</label>
+                                                <input id="projectdetail" type="text" class="form-control" place placeholder="Write your project Details">
+                                            </div>
+                                        </div>
+
                                         <div class="form-group col-12">
                                             <button class="btn btn-success float-right" type="submit">Save</button>
                                         </div>
